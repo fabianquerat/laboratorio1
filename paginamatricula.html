@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripcion</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h3>Formulario para proceso de matricula para CFT Estatal Arica y parinacota</h3>
+    <img src="https://cftestatalaricayparinacota.cl/wp-content/uploads/2022/01/logo_fix.jpg" alt="CFT Arica y Parinacota" width="300" height="200" >
+    <h3>¿A que carrera deseas inscribirte?</h3>
+    <select name="select">
+        <option value="value1">TNS en Informatica y Aplicaciones Tecnologicas</option>
+        <option value="value2" selected>TNS en Deporte y Recreacion</option>
+        <option value="value3">TNS en Trabajo Social</option>
+      </select>
+      <h4>Por favor rellene los campos</h4>
+      <p>Los campos con un asterisco(*) son obligatorios</p>
+    <form action="completado.html" target="_blank" method="POST"><br>
+        <label for="nombrecompleto">Nombre completo *</label><br>
+        <input type="text" id="nombre" name="nombre" size="30" value=""><br>
+        <label for="rut1">Rut *</label><br>
+        <input type="text" id="rut1" name="rut1" size="30" value=""><br>
+        <label for="correoelectronico">Correo Electronico *</label><br>
+        <input type="email" id="correoelectronico" name="correoelectronico" size="30" value=""><br>
+        <label for="domicilio">Domicilio *</label><br>
+        <input type="text" id="domicilio" name="domicilio" size="30" value=""><br>
+        <label for="numerocontacto">Numero contacto *</label><br>
+        <input type="tel" id="numerocontacto" name="numero contacto" size="15" value=""><br>
+        <label for="fechanacimiento">Fecha de nacimiento *</label><br>
+        <input type="date" id="fechadenacimiento" name="fechadenacimiento" size="30" value=""><br>
+        <p><label for="textlabel">Escriba como conocio el CFT Estatal Arica y Parinacota:</label></p>
+        <textarea id="textareaid" name="texarea" cols="50" rows="3">
+Escribe aquí
+</textarea><br>
+        <br>
+        <a href="file:///C:/xampp/htdocs/Futuro_KFC/completado.html" class="btn-neon">
+        ENVIAR 
+        </a><br>
+        <br>
+        <a href="file:///C:/xampp/htdocs/Futuro_KFC/Pagina%20Inicio(Lab1).html" class="btn-neon">
+        CANCELAR
+        </a><br>
+        <br>
+    </form>
+</center>
+
+
+</body>
+</html>
